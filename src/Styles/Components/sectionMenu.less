@@ -1,0 +1,141 @@
+.sectionMenu {
+  background-image: url("../../Images/patternMenu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 995px;
+  background-size: cover;
+}
+@media (max-width: 1199px) {
+  .sectionMenu {
+    height: 1800px;
+    background-repeat: repeat;
+  }
+  .dishesPrice {
+    margin: 0 auto !important;
+  }
+  .description {
+    margin: 0 auto !important;
+  }
+  .special {
+    margin: 15px auto 10px !important;
+  }
+}
+@media (max-width: 414px) {
+  .description {
+    width: auto !important;
+  }
+}
+.divHeaderSectionMenu {
+  text-align: center;
+  padding-top: 77px;
+  padding-left: 15px;
+}
+.divHeaderSectionMenu2 {
+  padding-left: 32px;
+  padding-top: 50px;
+}
+@media (max-width: 1199px) {
+  .divHeaderSectionMenu2 {
+    padding-left: 15px;
+  }
+}
+.dishesPrice {
+  border-bottom: 1px solid #e2d9b8;
+  height: 36px;
+  margin-top: -7px;
+  max-width: 435px;
+  margin-left: 51px;
+}
+.dishesPrice:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.dishes {
+  float: left;
+  font-size: 21px;
+  color: #c89f2d;
+  font-family: "YesevaOneRegular", serif;
+}
+.price {
+  float: right;
+  font-size: 21px;
+  color: #c89f2d;
+  font-family: "YesevaOneRegular", serif;
+}
+.description {
+  width: 435px;
+  margin-left: 51px;
+  margin-top: 8px;
+  margin-bottom: 28px;
+}
+.description:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.descriptionMeals {
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: "LatoRegular", serif;
+  line-height: 24px;
+  float: left;
+
+}
+
+.h2DividerSection2 {
+  margin-top: 45px;
+}
+
+.special {
+  border: 1px solid #e2d9b8;
+  margin-top: -10px;
+  padding-top: 10px;
+  max-width: 455px;
+  margin-left: 40px;
+  padding-left: 0;
+  height: 82px;
+  margin-bottom: 27px;
+}
+
+.special:before {
+  content: "Special";
+  display: block;
+  clear: both;
+  background: #e2d9b8;
+  margin: 0;
+  float: right;
+  margin-top: -32px;
+  color: #f8fafa;
+  font-size: 14px;
+  font-family: "LatoRegular", serif;
+  padding: 1px 12px;
+}
+.dishesSpecial {
+  margin-left: 10px;
+}
+.mainDish {
+  padding-left: 10px;
+}
+
+@media (max-width: 375px) {
+  .descriptionMeals {
+    font-size: 14px;
+  }
+  .dishes, .price {
+    font-size: 20px;
+  }
+  .dishesSpecial, .dishesPrice{
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+}
+@media (max-width: 320px) {
+  .descriptionMeals {
+    font-size: 12px;
+  }
+  .sectionMenu .h2DividerSection,
+  .h2DividerSection2 {
+    font-size: 33px;
+  }
+}

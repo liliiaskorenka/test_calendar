@@ -1,0 +1,142 @@
+.sectionPromo {
+  background-image: url("../../Images/BgSection1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 750px;
+  background-size: cover;
+}
+
+.h2SectionPromo {
+  padding-top: 216px;
+}
+
+.calloutText {
+
+  font-size: 90px;
+  font-family: "YesevaOneRegular", serif;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  line-height: 118px;
+  position: relative;
+}
+.calloutText:after{
+  content: "";
+  background-image: url("../../Images/Decoration.png");
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 258px;
+  height: 88px;
+}
+
+@media (min-width: 992px) and (max-width: 1219px) {
+  .calloutText {
+    margin-top: 100px;
+    font-size: 88px;
+  }
+}
+@media  (max-width: 991px) {
+  .calloutText {
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 40px;
+
+  }
+}
+@media (max-width: 767px) {
+  .whiteButton,
+  .blackButton {
+    text-align: center !important;
+
+  }
+}
+@media (max-width: 767px){
+.calloutText {
+  font-size: 40px;
+  line-height: 62px;
+  margin-bottom: 0px;
+}
+
+  .whiteButton,
+  .blackButton{
+    margin-top: 60px;
+  }
+}
+@media (max-width: 375px) {
+  .calloutText {
+    margin-bottom: -35px;
+  }
+
+  .h2SectionPromo {
+    padding-top: 200px;
+  }
+  .whiteDivider {
+    font-size: 32px !important;
+  }
+  .pSectionIgredients {
+    padding: 0 35px !important;
+  }
+  .imgSectionIgredients {
+    width: 90%;
+  }
+}
+
+.blackButton {
+  text-align: right;
+}
+.buttonPromoBookTable {
+  background: rgba(0,0,0,0.7);
+  font-family: "LatoRegular",serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 17px 50px;
+  border: 1px solid rgba(0,0,0,0.8);
+  text-transform: uppercase;
+  text-align: center;
+  transition: background 2s;
+
+}
+
+.buttonPromoBookTable:hover{
+  text-decoration: none;
+  color: white;
+  background: rgba(0,0,0,0.4);
+
+}
+
+.buttonPromoSeeMenu {
+  background: rgba(255,255,255,0.4);
+  font-family: "LatoRegular", serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 17px 48px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  text-align: center;
+  transition: background 2s;
+
+}
+
+.buttonPromoSeeMenu:hover{
+  text-decoration: none;
+  color: white;
+  background: rgba(255,255,255,0.2);
+}
+.buttonPromoSeeMenu:active,
+.buttonPromoSeeMenu:visited,
+.buttonPromoSeeMenu:focus,
+.buttonPromoBookTable:active,
+.buttonPromoBookTable:visited,
+.buttonPromoBookTable:focus{
+  text-decoration: none;
+}
+@media  (max-width: 780px) {
+.buttonPromoBookTable,
+.buttonPromoSeeMenu {
+font-size: 14px
+}
+}
+

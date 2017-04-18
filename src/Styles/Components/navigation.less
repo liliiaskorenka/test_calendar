@@ -1,0 +1,364 @@
+@media (min-width: 1220px) and (max-width: 1300px) {
+.navbar-header {
+  width: 126px;
+  margin-left: 37px;
+}
+}
+@media (min-width: 1220px) and (max-width: 1245px) {
+  .navbar-right {
+    float: left !important;
+    margin-left: 125px !important;
+  }
+}
+.ulNavbar {
+ padding-top: 45px;
+  margin-right: -69px;
+}
+
+@media (max-width: 991px) {
+  .ulNavbar {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+    padding-top: 10px;
+    width: 221px;
+    padding-bottom: 10px;
+    padding-left: 23px;
+    margin: 0;
+  }
+}
+
+.menuItem {
+  list-style: none;
+  display: inline-block;
+
+  padding-right: 17px;
+}
+.menuLink
+ {
+  text-decoration: none;
+  font-family: "GentiumBookBasicBold", serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #ffffff;
+  display: block;
+  padding: 0 13px;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+.menuLink:hover:before,
+.menuLinkIcon:hover:before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #f0ead3;
+  top: -45px;
+  left: 0;
+}
+}
+@media (min-width: 992px) {
+  .menuLink:before,
+  .menuLinkIcon:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background-color: #f0ead3;
+    top: -45px;
+    right: 0;
+    transition: width .35s ease;
+  }
+
+}
+ .menuLink:hover,
+ .menuLink:focus/*,
+ .menuLink:active*/ {
+   text-decoration: none;
+   color: @navigationIcons !important;
+ }
+.menuLinkIcon:hover,
+.menuLinkIcon:focus/*,
+.menuLinkIcon:active */{
+  text-decoration: none;
+  color: #ffffff !important;
+}
+.menuItemIcon {
+  list-style: none;
+  display: inline-block;
+  height: 100px;
+  position: relative;
+  line-height: 20px;
+  margin-left: -31px;
+  padding-right: 15px;
+  z-index: 1;
+}
+.menuLinkIcon {
+  color: @navigationIcons !important;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  padding: 4px 14px 0 14px;
+}
+.pulldownMenuItem {
+  list-style: none;
+  display: inline-block;
+  padding-right: 17px;
+}
+.pulldownMenuLink {
+  text-decoration: none;
+  font-family: "GentiumBookBasicBold", serif;
+  font-size: 19px;
+  font-weight: bold;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0 15px;
+}
+.pulldownMenuLink:hover {
+  color: @navigationIcons !important;
+  background: none !important;
+}
+
+.navbar-collapse {
+  padding-right: 40px;
+  padding-left: 10px;
+}
+.navbarButton {
+  font-size: 40px;
+  color: #8e3090;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  background: blue;
+}
+
+
+
+
+.navbar-default {
+  background: none;
+  border: none;
+}
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+@media (min-width: 992px) and (max-width: 1219px) {
+.ulNavbar {
+  margin: 0 auto;
+}
+}
+@media (min-width: 992px) and (max-width: 1219px) {
+  .navbar-header {
+    float: none;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1219px) {
+  .navbar-right {
+    float: none !important;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-right {
+    float: left !important;
+    position: fixed;
+    top: 120px;
+    border: none;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-right {
+    float: left !important;
+    position: relative;
+    top: 38px;
+    border: none;
+
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-toggle {
+    display: block !important;
+    float: left !important;
+    margin-left: 36px;
+    margin-top: 40px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+    height: ~"calc(100% - 120px)" !important;
+    top: 120px;
+    position: fixed;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    padding-right: 0;
+
+  }
+
+  .containerFluidWithoutMargin {
+    margin-left: 0;
+
+  }
+
+  .navbar-collapse {
+    padding-left: 0;
+    box-shadow: none;
+  }
+
+  .collapse.in {
+    display: block !important;
+  }
+}
+.navbar-right .dropdown-menu {
+  text-align: left;
+  margin: 0 auto;
+  top: 50px;
+  left: 0;
+  right: auto;
+
+}
+
+
+
+@media (max-width: 991px) {
+  .navigation {
+    position: fixed;
+    width: 100%;
+    background: none;
+  }
+
+  .dropdown-menu {
+    text-align: left;
+    position: static;
+    background: none;
+    box-shadow: none;
+    border: none;
+
+  }
+}
+
+@media (max-width: 991px) {
+  .pulldownMenuLink {
+    color: wheat !important;
+    font-size: 19px;
+    padding-left: 37px !important;
+
+  }
+}
+
+@media (max-width: 991px) {
+  .pulldownMenuLink:hover {
+    color: @navigationIcons !important;
+    background: none !important;
+
+  }
+}
+
+@media (max-width: 991px) {
+  .menuItem {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    height: initial;
+    padding-right: 17px;
+    z-index: 1;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 991px) {
+  .menuItemIcon {
+    list-style: none;
+    display: inline-block;
+    height: initial;
+    line-height: 20px;
+    padding-right: 7px;
+    z-index: 1;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .menuLink {
+    text-decoration: none;
+    font-family: "GentiumBookBasicBold", serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    padding: 0 15px;
+    position: relative;
+  }
+}
+@media (max-width: 768px) {
+  .menuLink {
+    text-decoration: none;
+    font-family: "GentiumBookBasicBold", serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    padding: 0 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .menuLinkIcon {
+      color: @navigationIcons !important;
+      text-decoration: none;
+      font-size: 21px;
+      font-weight: bold;
+      display: block;
+      position: relative;
+      padding: 4px 7px 0 46px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menuLinkIcon {
+    color: @navigationIcons !important;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    padding: 4px 7px 0 46px;
+  }
+}
+.navbar-toggle .icon-bar {
+  transition: all .25s;
+}
+.navbar-default .navbar-toggle .icon-bar:nth-child(2) {
+  transform: rotate(45deg) translate(4.4px, 4.4px);
+}
+.navbar-default .navbar-toggle .icon-bar:nth-child(3) {
+  width: 0%;
+  opacity: 0;
+}
+.navbar-default .navbar-toggle .icon-bar:last-child {
+  transform: rotate(-45deg) translate(4.4px, -4.4px);
+}
+.navbar-default .navbar-toggle.collapsed .icon-bar:nth-child(2),
+.navbar-default .navbar-toggle.collapsed .icon-bar:last-child {
+  transform: none;
+}
+.navbar-default .navbar-toggle.collapsed .icon-bar:nth-child(3) {
+  width: 22px;
+  opacity: 1;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+
